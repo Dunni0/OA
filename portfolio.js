@@ -24,45 +24,38 @@ cv.addEventListener("click", () => {
 })
 
 const github = document.querySelector("#github")
-
 github.addEventListener("click", () => {
      location.href="https://github.com/Dunni0"
 })
 
 const recipe_git = document.querySelector("#recipe_git")
-
 recipe_git.addEventListener("click", () => {
      location.href="https://github.com/Dunni0/Recipe-app"
 })
 
 const recipe_live = document.querySelector("#recipe_live")
-
 recipe_live.addEventListener("click", () => {
      location.href="https://recipe-app-dunni0.vercel.app/"
 })
 
 const reading_git = document.querySelector("#reading_git")
-
 reading_git.addEventListener("click", () => {
      location.href="https://github.com/Dunni0/reading-tracker"
 })
 
 const reading_live = document.querySelector("#reading_live")
-
 reading_live.addEventListener("click", () => {
-     location.href="https://recipe-app-dunni0.vercel.app/"
+     location.href="https://reading-tracker-alpha.vercel.app/"
 })
 
 const crop_git = document.querySelector("#crop_git")
-
 crop_git.addEventListener("click", () => {
      location.href="https://github.com/Dunni0/Crop-Pro"
 })
 
 const crop_live = document.querySelector("#crop_live")
-
 crop_live.addEventListener("click", () => {
-     location.href="https://github.com/Dunni0/Crop-Pro"
+     location.href="https://crop-pro.vercel.app/"
 })
 
 const mail = document.querySelector("#mail")

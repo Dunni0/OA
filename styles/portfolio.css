@@ -236,6 +236,7 @@ button{
 
 .btn_color_2{
     background: none;
+    color: black;
 }
 
 .btn_color_2:hover{
