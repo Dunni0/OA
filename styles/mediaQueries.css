@@ -1,0 +1,77 @@
+@media screen and (max-width: 1020px) {
+  #nav {
+    display: none;
+  }
+  .hambugger_nav {
+    display: flex;
+  }
+
+.profile_img {
+    width: 200px;
+    height: 200px;
+  }
+
+  #hero,
+  .section_container {
+    flex-direction: column;
+    margin-bottom: 3rem;
+  }
+
+  .about_img {
+    width: 240px;
+    height: 240px;
+  }
+
+  section {
+    margin: 0;
+    padding: 1rem;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+
+  #about_containers {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  #contact {
+    max-height: 5vh;
+    margin-top: 10rem;
+  }
+
+  .project_img {
+    max-width: 170px;
+    border-radius: 1rem;
+  }
+
+  .color_con {
+    max-width: 240px;
+  }
+
+  .contact_info_upper_container {
+    flex-direction: column;
+    max-width: 250px;
+  }
+
+  #arrow {
+    display: none;
+  }
+
+  footer {
+    margin-top: 7rem;
+  }
+
+  footer > div > ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .about_containers{
+    flex-direction: column;
+  }
+}

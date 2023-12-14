@@ -1,0 +1,402 @@
+@import url(clash-display.css);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'ClashDisplay-Variable';
+    overflow-x: hidden;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+p{
+    color: rgb(85, 85, 85);
+}
+
+a, .btn{
+    transition: all 300ms ease;
+}
+
+nav, .nav_links{
+    display: flex;
+    list-style: none;
+}
+
+nav{
+    justify-content: space-around;
+    align-items: center;
+    height: 17vh ;
+}
+
+.logo{
+   font-size: 2rem;
+   font-weight: 900;
+}
+
+.logo:hover{
+   cursor: default;
+}
+
+.nav_links{
+    gap: 3rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+a, span{
+    text-decoration: none;
+    color: black;
+    text-decoration-color: #fff;
+}
+
+span{
+    cursor: pointer;
+    transition: all 300ms ease-in-out;
+}
+
+a:hover, span:hover, .menu_links a:hover{
+    color: grey;
+    text-decoration: underline;
+    text-underline-offset: 0.7rem;
+    text-decoration-color: rbg(101, 101, 101);
+}
+
+.hambugger_nav{
+    display: none;
+}
+
+.menu_icon{
+    position: relative;
+    cursor: pointer;
+    transition: all 0.3 ease-in-out;
+} 
+
+.menu_links{
+    list-style: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    transition: all 0.3 ease-in-out;
+    background-color: #fff; 
+    display: none;
+}
+
+.menu_links a{ 
+    display: block;
+    padding: 10px;
+    text-align: center;
+    color: black;
+    transition: all 0.3 ease-in-out;
+    font-weight: 500;
+}
+
+.menu_links.open{
+    top: 10%;
+    right: 25%;
+    max-height: 300px;
+    display: block;
+} 
+
+#hide{
+    display: none;
+}
+
+#hide.open{
+    display: block;
+}
+
+#h.open{
+    display: none;
+}
+
+.profile_img{
+    width: 340px;
+    height: 340px;
+    border-radius: 50%;
+}
+
+.about_img{
+    width: 340px;
+    height: 340px;
+    margin: auto 0;
+    border-radius: 30px;
+}
+
+section{
+    padding-top: 8rem;
+    padding-bottom: 10rem;
+    margin: 0 10rem ;
+    box-sizing: border-box;
+}
+
+#hero{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    height: 75vh ;
+    margin-bottom: 2rem;
+}
+
+.section_img{
+    display: flex;
+    justify-content: center;
+    margin: auto 0;
+}
+
+.section_txt{
+    align-self: center;
+    text-align: center;
+}
+
+.section_txt p{
+    font-weight: 600;
+    cursor: default;
+}
+
+.section_txt_p1{
+    text-align: center;
+}
+
+.section_txt_p2{
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+}
+
+.title{
+    cursor: default;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.socials_container{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 1.5rem;
+}
+
+#icon, button{
+    cursor: pointer;
+}
+
+#icon{
+    height: 2rem;
+    transition: all 300ms ease;
+}
+
+button{
+    font-family: 'ClashDisplay-Variable';
+}
+
+.btn_container{
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.btn{
+    font-weight: 600;
+    transition: all 300ms ease;
+    padding: 0.8rem 0.5rem 0.8rem;
+    width: 8rem;
+    border-radius: 2rem;
+}
+
+.btn_color_1, .btn_color_2{
+     border: rgb(53, 53, 53) 0.1rem solid;
+}
+
+.btn_color_1:hover, .btn_color_2:hover{
+    cursor: pointer;
+}
+
+.btn_color_1, .btn_color_2:hover{
+    background: rgb(53, 53, 53);
+    color: #fff;
+}
+
+.btn_color_1:hover{
+    background: rgb(0, 0 , 0);
+}
+
+.btn_color_2{
+    background: none;
+}
+
+.btn_color_2:hover{
+    border: rgb(255, 255 , 255) 0.1rem solid;
+}
+
+.btn_container{
+    gap: 1rem;
+}
+
+#about{
+    position: relative;
+}
+
+.about_containers{
+    gap: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.about_deets_contanier{
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.about_containers, 
+.about_deets_contanier{
+    display: flex;
+}
+
+#arrow{
+    position: absolute;
+    right: -2rem;
+    bottom: 2rem;
+    font-weight: 900;
+}
+
+.deets_container{
+    padding: 1.5rem;
+    flex: 1;
+    background: #fff;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163 , 163);
+    text-align: center;
+    align-items: center;
+}
+
+.txt_container{
+    font-weight: 500;
+}
+
+.section_container{
+    display: flex;
+    gap: 4rem;
+    height: 80%;
+    align-items: center;
+    
+}
+
+article{
+    width: 10rem;
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 2rem;
+}
+
+#experience{
+   position: relative;
+}
+
+.exp_sub_title{
+    color: rgb(85, 85, 85);
+    font-weight: 600;
+    font-size: 1.75rem;
+    margin-bottom: 2rem;
+}
+
+.experience_deets_container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.article_container{
+    display: flex;
+    text-align: initial;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: space-around;
+}
+
+#projects{
+    position: relative;
+    justify-content: center;
+}
+
+.color_con{
+    border-color: rgb(163, 163 , 163);
+    background-color: rgb(250, 250 , 250);
+    max-width: 300px;
+    transition: all 300ms ease;
+    cursor: pointer;
+}
+
+.color_con:hover{
+    scale: 0.95;
+}
+
+#project_icon{
+   font-size: 4rem;
+   margin-top: 2rem;
+   margin-bottom: 1rem;
+}
+
+.project_title{
+    margin: 2rem;
+    color: black;
+}
+
+#project_deet{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 70vh;
+}
+
+.contact_info_upper_container{
+    display: flex;
+    justify-content: center;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.2rem solid;
+    border-color: rgb(163, 163 , 163) ;
+    background-color: rgb(250, 250 , 250) ;
+    margin: 2rem auto;
+    padding: 0.5rem ;
+}
+
+.contact_info_con{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin: 1rem;
+}
+
+.contact_info_con p{
+    font-size: larger;
+}
+
+.project_img{
+    max-width: 250px;
+    border-radius: 1rem;
+}
+
+footer > div{
+    max-width: 400px;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+
+footer > div > ul > li{
+    font-size: smaller;
+}

@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oluwapelumi A.</title>
+    <link rel="stylesheet" href="./styles/portfolio.css"/>
+    <link rel="stylesheet" href="./styles/mediaQueries.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <nav id="nav">
+        <div class="logo">
+             OA
+        </div>
+        <div>
+            <ul class="nav_links">
+            <li> <a href="#about"> About </a> </li>
+            <li> <a href="#experience"> Experience </a> </li>
+            <li> <a href="#projects"> Projects </a> </li>
+            <li> <a href="#contact"> Contact </a> </li>
+            </ul>
+        </div>
+    </nav>
+
+    <nav class="hambugger_nav">
+        <div class="logo">
+            OA
+       </div>
+        <div class="menu_icon" id="menu_icon">
+            <i id="h" class="fa-solid fa-bars fa-xl" style="color: #000000;"></i>
+            <i id="hide" class="fa-solid fa-xmark fa-xl" style="color: #000000;"></i>
+        </div>
+        <ul class="menu_links" id="menu_links">
+            <li> <a href="#about"  onclick="toggleMenu()"> About </a> </li>
+            <li> <a href="#experience" onclick="toggleMenu()"> Experience </a> </li>
+            <li> <a href="#projects" onclick="toggleMenu()"> Projects </a> </li>
+            <li> <a href="#contact" onclick="toggleMenu()"> Contact </a> </li>
+        </ul>
+    </nav>
+
+    <section id="hero">
+        <div class="section_img">
+            <img class="profile_img" src="./assets/IMG_5492.jpg" alt="profile picture" />
+        </div>
+        <div class="section_txt">
+            <p class="secion_txt_p1">
+                Hello, I'm
+            </p>
+            <h1 class="title">
+                Oluwapelumi Awonuga
+            </h1>
+            <p class="section_txt_p2">
+                Frontend Developer
+            </p>
+            <div class="btn_container">
+                <button class="btn btn_color_2" onclick="window.open('./assets/My Resume (intern).pdf')">
+                     Download CV
+                </button>
+                <button class="btn btn_color_1" onclick="location.href='./#contact'">
+                    Contact Me
+               </button>
+            </div>
+            <div class="socials_container">
+                <i id="icon" class="fa-brands fa-linkedin fa-xl" style="color: #000000;" onclick="location.href = 'https:/linkedin.com/in/oluwapelumi-awonuga-841997221/'"></i>
+                <i id="icon" class="fa-brands fa-github fa-xl" style="color: #000000;" onclick="location.href= 'https:/github.com/Dunni0'"></i>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="about">
+        <p class="section_txt_p1"> Get to know more</p>
+        <h1 class="title"> About Me </h1>
+        <div class="section_container">
+           <div class="section_img">
+              <img class="about_img" src="./assets/IMG_5575.jpg" alt="about image">
+           </div>
+            <div class="about_deets_container">
+                <div class="about_containers">
+                    <div class="deets_container">
+                        <i id="icon" class="fa-solid fa-award fa-xl" style="color: #000000;"></i>
+                        <h3> Experience </h3>
+                        <p> 2 years <br /> Frontend Development </p>
+                    </div>
+                    <div class="deets_container">
+                        <i id="icon" class="fa-solid fa-graduation-cap fa-xl" style="color: #000000;"></i>
+                        <h3> Education </h3>
+                        <p> BA, Bachelors of Arts <br /> Diploma, Frontend Engineering </p>
+                    </div>
+                </div>
+
+                <div class="txt_container"> 
+                    Philosophy graduate who found the perfect blend of logic and creativity
+                    in Frontend Development. Dedicated to crafting seemless user experience.
+                    With 2 years of experience, I transform ideas into elegant code.
+                </div>
+            </div>
+        </div>
+        <i id="arrow" class="fa-solid fa-angles-down fa-xl" style="color: #000000;" onclick="location.href='./#experience'"></i>
+    </section>
+
+    <section id="experience">
+        <p class="section_txt_p1"> Explore My </p>
+        <h1 class="title"> Experience </h1>
+        <div class="experience_deets_container">
+            <div id="about_containers" class="about_containers">
+                <div class="deets_container">
+                    <h2 class="exp_sub_title"> Frontend Development </h2>
+                    <div class="article_container">
+                        <article> 
+                            <i id="exp_icon" class="fa-solid fa-circle-check" style="color: #000000;"></i>
+                            <div> 
+                                <h3> HTML </h3>
+                                <p> Experienced </p>
+                            </div>
+                        </article>
+                        <article> 
+                            <i id="exp_icon" class="fa-solid fa-circle-check" style="color: #000000;"></i>
+                            <div> 
+                                <h3> CSS </h3>
+                                <p> Experienced</p>
+                            </div>
+                        </article>
+                        <article> 
+                            <i id="exp_icon" class="fa-solid fa-circle-check" style="color: #000000;"></i>
+                            <div> 
+                                <h3> JavaScript </h3>
+                                <p> Intermediate </p>
+                            </div>
+                        </article>
+                        <article> 
+                            <i id="exp_icon" class="fa-solid fa-circle-check" style="color: #000000;"></i>
+                            <div> 
+                                <h3> React JS </h3>
+                                <p> Intermediate </p>
+                            </div>
+                        </article>
+                        <article> 
+                            <i id="exp_icon" class="fa-solid fa-circle-check" style="color: #000000;"></i>
+                            <div> 
+                                <h3> Tailwind </h3>
+                                <p> Intermediate </p>
+                            </div>
+                        </article>
+                        <article> 
+                            <i id="exp_icon" class="fa-solid fa-circle-check" style="color: #000000;"></i>
+                            <div> 
+                                <h3> Styled Components </h3>
+                                <p> Intermediate </p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="deets_container">
+                    <h2 class="exp_sub_title"> Tools </h2>
+                    <div class="article_container">
+                        <article> 
+                            <i id="exp_icon" class="fa-solid fa-circle-check" style="color: #000000;"></i>
+                            <div> 
+                                <h3> Git </h3>
+                                <p> Experienced </p>
+                            </div>
+                        </article>
+                        <article> 
+                            <i id="exp_icon" class="fa-solid fa-circle-check" style="color: #000000;"></i>
+                            <div> 
+                                <h3> Firebase </h3>
+                                <p> Intermediate </p>
+                            </div>
+                        </article>
+                        <article> 
+                            <i id="exp_icon" class="fa-solid fa-circle-check" style="color: #000000;"></i>
+                            <div> 
+                                <h3> Trello </h3>
+                                <p> Experienced </p>
+                            </div>
+                        </article>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <i id="arrow" class="fa-solid fa-angles-down fa-xl" style="color: #000000;" onclick="location.href='./#projects'"></i>
+    </section>
+
+    <section id="projects"> 
+       <p class="section_txt_p1">
+          Browse My Recent 
+       </p>
+       <h1 class="title"> Projects </h1>
+       <div class="experience_deets_container">
+        <div id="project_deet" id="about_containers" class="about_containers">
+           <div class="deets_container color_con">
+               <div class="article_container">
+                 <img class="project_img" src="./assets/pexels-yente-van-eynde-2403391.jpg" alt="Recipe" />
+               </div>
+               <h2 class="exp_sub_title project_title"> Recipe App </h2>
+               <div class="btn_container">
+                   <button class="btn btn_color_2 project_btn" onclick="location.href='https:/github.com/Dunni0/Recipe-app'"> 
+                      Source Code
+                   </button>
+                   <button class="btn btn_color_2 project_btn" onclick="location.href='https:/recipe-app-dunni0.vercel.app/'"> 
+                      Live Demo
+                   </button>
+               </div>
+           </div>
+
+           <div class="deets_container color_con">
+               <div class="article_container">
+                 <img class="project_img" src="./assets/pexels-pixabay-433333.jpg" alt="books" />
+               </div>
+               <h2 class="exp_sub_title project_title"> Reading Tracker </h2>
+               <div class="btn_container">
+                   <button class="btn btn_color_2 project_btn" onclick="location.href='https:/github.com/Dunni0/reading-tracker'"> 
+                      Source Code
+                   </button>
+                   <button class="btn btn_color_2 project_btn" onclick="location.href='https:/reading-tracker-alpha.vercel.app/'"> 
+                      Live Demo
+                   </button>
+               </div>
+           </div>
+
+           <div class="deets_container color_con">
+               <div class="article_container">
+                 <img class="project_img" src="./assets/pexels-kelly-2382665.jpg" alt="farm" />
+               </div>
+               <h2 class="exp_sub_title project_title"> Crop Pro </h2>
+               <div class="btn_container">
+                   <button class="btn btn_color_2 project_btn" onclick="location.href='https:/github.com/Dunni0/Crop-Pro'"> 
+                      Source Code
+                   </button>
+                   <button class="btn btn_color_2 project_btn" onclick="location.href='https:/crop-pro.vercel.app/'"> 
+                      Live Demo
+                   </button>
+               </div>
+           </div>
+        </div>
+       </div>
+
+       <i id="arrow" class="fa-solid fa-angles-down fa-xl" style="color: #000000;" onclick="location.href='./#contact'"></i>
+    </section>
+
+    <section id="contact">
+       <p class="section_txt_p1"> Get in Touch  </p>
+       <h3 class="title"> Contact Me </h3>
+       <div class="contact_info_upper_container">
+           <div class="contact_info_con">
+                <i id="icon contact_icon" class="fa-solid fa-envelope fa-l" style="color: #000000;"></i>
+                <span onclick= "location.href='mailto:pelumioladunni3@gmail.com'"> pelumioladunni3@gmail.com  </span>
+           </div>
+
+           <div class="contact_info_con">
+                <i id="icon contact_icon" class="fa-brands fa-linkedin fa-l" style="color: #000000;"></i>
+                <span onclick="location.href = 'https:/linkedin.com/in/oluwapelumi-awonuga-841997221/'"> Linkedin  </span>
+          </div>
+        </div>
+    </section>
+
+    <footer> 
+    <div>
+        <ul class="nav_links">
+        <li> <a href="#about"> About </a> </li>
+        <li> <a href="#experience"> Experience </a> </li>
+        <li> <a href="#projects"> Projects </a> </li>
+        <li> <a href="#contact"> Contact </a> </li>
+        </ul>
+    </div>
+</footer>
+
+    
+    <script src="portfolio.js"> </script>
+</body>
+</html>
