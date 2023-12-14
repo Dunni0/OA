@@ -54,7 +54,7 @@
                 Frontend Developer
             </p>
             <div class="btn_container">
-                <button class="btn btn_color_2" onclick="window.open('./assets/My Resume (intern).pdf')">
+                <button id="cv" class="btn btn_color_2">
                      Download CV
                 </button>
                 <button class="btn btn_color_1" onclick="location.href='./#contact'">
@@ -63,7 +63,7 @@
             </div>
             <div class="socials_container">
                 <i id="linkedin" id="icon" class="fa-brands fa-linkedin fa-xl" style="color: #000000;"></i>
-                <i id="icon" class="fa-brands fa-github fa-xl" style="color: #000000;" onclick="location.href= 'https:/github.com/Dunni0'"></i>
+                <i id="github" id="icon" class="fa-brands fa-github fa-xl" style="color: #000000;"></i>
             </div>
         </div>
 
@@ -197,10 +197,10 @@
                </div>
                <h2 class="exp_sub_title project_title"> Recipe App </h2>
                <div class="btn_container">
-                   <button class="btn btn_color_2 project_btn" onclick="location.href='https:/github.com/Dunni0/Recipe-app'"> 
+                   <button id="recipe_git" class="btn btn_color_2 project_btn"> 
                       Source Code
                    </button>
-                   <button class="btn btn_color_2 project_btn" onclick="location.href='https:/recipe-app-dunni0.vercel.app/'"> 
+                   <button id="recipe_live" class="btn btn_color_2 project_btn"> 
                       Live Demo
                    </button>
                </div>
@@ -212,10 +212,10 @@
                </div>
                <h2 class="exp_sub_title project_title"> Reading Tracker </h2>
                <div class="btn_container">
-                   <button class="btn btn_color_2 project_btn" onclick="location.href='https:/github.com/Dunni0/reading-tracker'"> 
+                   <button id="reading_git" class="btn btn_color_2 project_btn"> 
                       Source Code
                    </button>
-                   <button class="btn btn_color_2 project_btn" onclick="location.href='https:/reading-tracker-alpha.vercel.app/'"> 
+                   <button id="reading_live" class="btn btn_color_2 project_btn"> 
                       Live Demo
                    </button>
                </div>
@@ -227,10 +227,10 @@
                </div>
                <h2 class="exp_sub_title project_title"> Crop Pro </h2>
                <div class="btn_container">
-                   <button class="btn btn_color_2 project_btn" onclick="location.href='https:/github.com/Dunni0/Crop-Pro'"> 
+                   <button id="crop_git" class="btn btn_color_2 project_btn"> 
                       Source Code
                    </button>
-                   <button class="btn btn_color_2 project_btn" onclick="location.href='https:/crop-pro.vercel.app/'"> 
+                   <button id="crop_live" class="btn btn_color_2 project_btn"> 
                       Live Demo
                    </button>
                </div>
@@ -246,13 +246,13 @@
        <h3 class="title"> Contact Me </h3>
        <div class="contact_info_upper_container">
            <div class="contact_info_con">
-                <i id="icon contact_icon" class="fa-solid fa-envelope fa-l" style="color: #000000;"></i>
-                <span onclick= "location.href='mailto:pelumioladunni3@gmail.com'"> pelumioladunni3@gmail.com  </span>
+                <i id="icon contact_icon" id="icon1" class="fa-solid fa-envelope fa-l" style="color: #000000;"></i>
+                <span id="mail"> pelumioladunni3@gmail.com  </span>
            </div>
 
            <div class="contact_info_con">
-                <i id="icon contact_icon" class="fa-brands fa-linkedin fa-l" style="color: #000000;"></i>
-                <span onclick="location.href = 'https:/linkedin.com/in/oluwapelumi-awonuga-841997221/'"> Linkedin  </span>
+                <i id="icon contact_icon icon1" class="fa-brands fa-linkedin fa-l" style="color: #000000;"></i>
+                <span id="linkedin2"> Linkedin  </span>
           </div>
         </div>
     </section>
