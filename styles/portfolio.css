@@ -181,22 +181,14 @@ section{
     margin-top: 1.5rem;
 }
 
-#icon, button{
+#linkedin,#github, button{
     cursor: pointer;
 }
 
-i{
-    cursor: pointer;
-}
 
 #icon{
     height: 2rem;
     transition: all 300ms ease;
-}
-
-#icon1{
-    cursor: default;
-    border: 2px solid red;
 }
 
 button{
