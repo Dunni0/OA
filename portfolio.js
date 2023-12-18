@@ -20,7 +20,7 @@ linkedin.addEventListener("click", () =>{
 
 const cv = document.querySelector("#cv")
 cv.addEventListener("click", () => {
-     window.open('./assets/MyResume.pdf')
+     window.open('./assets/Resume.pdf')
 })
 
 const github = document.querySelector("#github")
